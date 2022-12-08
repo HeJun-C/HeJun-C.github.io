@@ -6,3 +6,6 @@ I have a strong passion for Data Science
 Education
 
 - Baruch College, City University of New York, 2024.
+
+- [Data Science NYC tlz zone analysis](tlc_zone.html)
+- [Fancypants title](fancy.html)
