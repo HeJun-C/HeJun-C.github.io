@@ -1,0 +1,17 @@
+__Hejun Chen__ 
+
+hejun.chen@baruchmail.cuny.edu
+
+__[My Linkedin Profile]__(https://www.linkedin.com/in/hejun-chen/)
+
+I have a strong passion for Data Science.
+
+__Education__
+
+- Baruch College, City University of New York, 2024.
+
+__R Projects__
+
+- [Data Science NYC tlz zone analysis](tlc_zone.html)
+
+- [Hotel Revenue Strategies](final.html)
