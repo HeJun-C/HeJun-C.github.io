@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <title>Hejun Chen</title>
+
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Import materialize.css-->
+  <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+
+  <style>
+    body
+    {
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      background-image: url('images/beach3.jpg');
+      background-size: cover;
+      background-attachment: fixed;
+      /* background-image:  radial-gradient(#444cf7 0.5px, transparent 0.5px), radial-gradient(#444cf7 0.5px, #FBD8B0 0.5px);
+      background-size: 20px 20px;
+      background-position: 0 0, 10px 10px; */
+    }
+
+    .vertical-nav
+    {
+      margin: 0px;
+      position: fixed;
+      width: 400px;
+      min-height: 100%;
+      background-repeat: round;
+      opacity: 1;
+      /* background-image:  radial-gradient(#444cf7 0.5px, transparent 0.5px), radial-gradient(#444cf7 0.5px, #FBD8B0 0.5px);
+      background-size: 20px 20px;
+      background-position: 0 0, 10px 10px; */
+    }
+
+    .profile-block
+    {
+      position: relative;
+      height: 300px;
+      /*background-color: #324D5C;*/
+    }
+
+    .profile-block-sm
+    {
+      position: relative;
+      height: 200px;
+      /*background-color: #324D5C;*/
+
+    }
+
+    .headshot-l
+    {
+      position: absolute;
+      top: 40%;
+      transform: translateY(-50%);
+      border-radius: 50%;
+      margin-left: 30px;
+      border: solid 4.3px #ffffff;
+    }
+
+    .headshot-sm
+    {
+      border: solid 4.3px #ffffff;
+      border-radius: 50%;
+    }
+
+    .center{
+      text-align: center;
+    }
+    
+    .image-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px; /* Adjust as needed */
+    } 
+
+    .image-container img {
+    margin-right: 20px;
+    margin-left: 20px;
+    margin-top: 10px;
+    }
+
+    .row
+    {
+      margin-bottom: 8px;
+    }
+
+    .card {
+      margin-top: 20px;
+      box-shadow: 3px 5px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .card-content
+    {
+      padding: 0 !important;
+      font-size: large;
+      background-color: rgb(252, 250, 244);
+    }
+
+    .card-title
+    {
+      color: #000000;
+      background-color:#c6d7dc;
+      padding-left: 22px;
+      padding-top: 2px;
+      padding-bottom: 10px;
+      margin: 0; /* Remove any default margin */
+      width: 100%;
+    }
+
+    .card-text 
+    {
+      color: #000000;
+      padding:25px;
+      padding-top: 8px; 
+    }
+
+    .logo-link
+    {
+      margin: 20px;
+    }
+  </style>
+
+</head>
+
+<body>
+
+  <div class="vertical-nav hide-on-med-and-down">
+
+    <!-- Headshot -->
+    <div class="profile-block" style="margin-left: 20px; margin-top: 80px;">
+      <img class="headshot-l" src="images/profile-2.jpeg" width="300px" >
+    </div>
+
+    <!-- Basic titles -->
+    <div style="color:#ffffff; font-size: large; margin-top: 9px" class="center-align">
+      <p class="center">Hejun Chen, 陈贺珺</p>
+      <p style="font-size: medium;" class="center">M.S. in Data Science, New York University</p>
+      <p style="padding-bottom: 30px; font-size: medium;" class="center">CDS DeepMind Scholar</p>
+    </div>
+
+    <!-- Icons that link to my other websites-->
+    <div class="image-container">
+      <a href="https://www.linkedin.com/in/hejun-chen/" target="_blank"><img src="images/linkedin-logo.png" style="width: 60px;"></a>
+      <a href="https://github.com/HeJun-C" target="_blank"><img src="images/github-logo.png" style="width: 60px;"></a>
+    </div>
+    <div class="image-container">
+      <a href="https://www.kaggle.com/captainhandy" target="_blank"><img src="images/kaggle-logo.png" style="width: 60px;"></a>
+      <a href="https://www.instagram.com/junjunchen620/" target="_blank"><img src="images/ins-logo.png" style="width: 60px;"></a>
+    </div>
+    
+  </div>
+
+  <div class="hide-on-med-and-down">
+    <div style="padding-left: 400px">
+      <div class="container" style="width: 83%;">
+
+        <div class="row">
+          <div class="col s12 m12 l12">
+            <div class="card" style="margin-top: 35px;">
+              <div class="card-content" style="color: #30505D;">
+                <div class="card-title"><h5>About Me</h5></div>
+                <div class="card-text"><p style="padding-top: 5px;">Hey there! I'm Hejun Chen. <br><br>I graduated from 
+                  Baruch College with a bachelor degree in Statistics & Quantitative Modeling and a minor in Math. I'll start 
+                  my master's in Data Science at the <a href="https://cds.nyu.edu/">NYU Center for Data Science</a> in the Fall of 2024. My passion lies in using AI/ML to tackle business challenges and uncover insights from 
+                  data analysis in the industry. <br><br> Looking forward to the journey ahead.</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col s12 m12 l12">
+            <div class="card">
+              <div class="card-content" style="color: #30505D;">
+                <div class="card-title"><h5>Experience</h5></div>
+                <div class="card-text">
+                  <ul>
+                    <li>2023.5~2023.8 &nbsp; |&nbsp;&nbsp; Business Insights Intern, Nationwide Mutual Insurance</li>
+                    <br>
+                    <li>2023.2~2023.8 &nbsp; |&nbsp;&nbsp; Data Science Intern, American Red Cross (Volunteer)</li>
+                    <br>
+                    <li>2022.4~2022.9 &nbsp; |&nbsp;&nbsp; Data Challenge Finalist Program, Meta</li>
+                    <br>
+                    <li>2022.6~2022.8 &nbsp; |&nbsp;&nbsp; Data Science Intern, EisnerAmper</li>
+                    <br>
+                    <li>2022.2~2022.5 &nbsp; |&nbsp;&nbsp; Data Science Intern, Digital Bridge Advisors</li>
+                    <br>
+                    <li>2021.11~2022.2 |&nbsp;&nbsp; Data Science Intern, Aponia Data Solution</li>
+                    <br>
+                    <li>2022.1~2022.1 &nbsp; |&nbsp;&nbsp; Winter Information Technology Intern, MTA</li>
+                    <br>
+                    <li>2021.11~2022.1 |&nbsp;&nbsp; Civic Engagement: Information Technology Intern, Research Foundation of CUNY</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col s12 m12 l12">
+            <div class="card">
+              <div class="card-content" style="color: #30505D;">
+                <div class="card-title"><h5>Skill Set</h5></div>
+                <div class="card-text">
+                  <p style="padding-top: 5px;">
+                    <b>General Skills:</b> Machine Learning Algorithms, Deep Learning Framework, NLP(Natural Language Processing), Time Series Forecasting, A/B Test, Frontend Development, Statistical Analysis, Data Visualization, Version Control, Data Structure & Algorithms<br><br>
+                    <b>Programming Languages:</b> Python, SQL, R, HTML, JavaScript, CSS <br><br>
+                    <b>Tools:</b> PySpark, PyTorch, AWS, Hadoop, Snowflake, Databricks, Dataiku, Git
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col s12 m12 l12">
+            <div class="card">
+              <div class="card-content" style="color: #30505D;">
+                <div class="card-title"><h5>Projects</h5></div>
+                <div class="card-text">
+                  <p style="padding-top: 5px;">Hey there! I'm Hejun Chen. <br><br>I graduated from 
+                  Baruch College with a bachelor degree in Statistics & Quantitative Modeling and a minor in Math. I'll start 
+                  my master's in Data Science at the <a href="https://cds.nyu.edu/">NYU Center for Data Science</a> in the Fall of 2024. <br><br> My passion lies in using AI/ML to tackle business challenges and uncover insights from 
+                  data analysis in the industry. <br><br> Looking forward to the journey ahead.
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+          <div class="col s12 m12 l12">
+            <div class="card" style="margin-bottom: 30px;">
+              <div class="card-content" style="color: #30505D;">
+                <div class="card-title"><h5>Honors and Awards</h5></div>
+                <div class="card-text">
+                  <ul style="list-style-type: disc;">
+                    <li>⦿ Google CDS DeepMind Scholarship, 2024</li> <br>
+                    <li>⦿ Ronald I. Heller Entrepreneurship Scholarship, 2022</li> <br>
+                    <li>⦿ FZYZ Taihe Outstanding Club Leader Scholarship, 2018</li> <br>
+                    <li>⦿ FLTRP ETIC Cup English Public Speaking Contest 1st Prize at Fuzhou City, 2017</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+  <div class="hide-on-large-only">
+    <div class="container" style="width: 100%; background-color: rgba(255, 255, 255, 0);">
+      <div class="row" >
+        <div class="col s12 m12 l12">
+          <div class="card-content" style="background-color: rgba(255, 255, 255, 0);">
+
+            <div class="profile-block-sm center-align" style="padding: 30px;">
+              <img class="headshot-sm" src="images/profile-2.jpeg" width="280px" class="profile-sm center-align">
+            </div>
+
+            <div style="color: #F8F8f8; font-size: large; margin-top: 140px; padding-bottom: 50px" class="center-align">
+              
+              <p style="color: white" class="center">Hejun Chen, 陈贺珺</p>
+              <p style="font-size: medium; color: white;" class="center">M.S. in Data Science, New York University</p>
+              <p style="font-size: medium; color: white;" class="center">CDS DeepMind Scholar</p>
+              <br>
+              <span class="logo-link">
+                <a href="https://www.linkedin.com/in/hejun-chen/" target="_blank">
+                  <img src="images/linkedin-logo.png" style="width: 30px">
+                </a>
+              </span>
+              <span class="logo-link">
+                <a href="https://github.com/HeJun-C" target="_blank">
+                  <img src="images/github-logo.png" style="width: 30px">
+                </a>
+              </span>
+              <span class="logo-link">
+                <a href="https://www.kaggle.com/captainhandy" target="_blank">
+                  <img src="images/kaggle-logo.png" style="width: 30px">
+                </a>
+              </span>
+              <span class="logo-link">
+                <a href="https://www.instagram.com/junjunchen620/" target="_blank">
+                  <img src="images/ins-logo.png" style="width: 30px">
+                </a>
+              </span>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container" style="width: 97%;">
+
+      <div class="row">
+        <div class="col s12 m12 l12">
+          <div class="card" style="margin-top: 0px;">
+            <div class="card-content" style="color: #30505D;">
+              <div class="card-title"><h5>About Me</h5></div>
+              <div class="card-text"><p style="padding-top: 5px;">Hey there! I'm Hejun Chen. <br><br>I graduated from 
+                Baruch College with a bachelor degree in Statistics & Quantitative Modeling and a minor in Math. I'll start 
+                my master's in Data Science at the <a href="https://cds.nyu.edu/">NYU Center for Data Science</a> in the Fall of 2024. My passion lies in using AI/ML to tackle business challenges and uncover insights from 
+                data analysis in the industry. <br><br> Looking forward to the journey ahead.</p></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col s12 m12 l12">
+          <div class="card" style="margin-top: 0px;">
+            <div class="card-content" style="color: #30505D;">
+              <div class="card-title"><h5>Experience</h5></div>
+              <div class="card-text">
+                <ul>
+                  <li>2023.5~2023.8 &nbsp; |&nbsp;&nbsp; Business Insights Intern, Nationwide Mutual Insurance</li>
+                  <br>
+                  <li>2023.2~2023.8 &nbsp; |&nbsp;&nbsp; Data Science Intern, American Red Cross (Volunteer)</li>
+                  <br>
+                  <li>2022.4~2022.9 &nbsp; |&nbsp;&nbsp; Data Challenge Finalist Program, Meta</li>
+                  <br>
+                  <li>2022.6~2022.8 &nbsp; |&nbsp;&nbsp; Data Science Intern, EisnerAmper</li>
+                  <br>
+                  <li>2022.2~2022.5 &nbsp; |&nbsp;&nbsp; Data Science Intern, Digital Bridge Advisors</li>
+                  <br>
+                  <li>2021.11~2022.2 |&nbsp;&nbsp; Data Science Intern, Aponia Data Solution</li>
+                  <br>
+                  <li>2022.1~2022.1 &nbsp; |&nbsp;&nbsp; Winter Information Technology Intern, MTA</li>
+                  <br>
+                  <li>2021.11~2022.1 |&nbsp;&nbsp; Civic Engagement: Information Technology Intern, Research Foundation of CUNY</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col s12 m12 l12">
+          <div class="card" style="margin-top: 0px;">
+            <div class="card-content" style="color: #30505D;">
+              <div class="card-title"><h5>Skill Set</h5></div>
+              <div class="card-text">
+                <p style="padding-top: 5px;">
+                  <b>General Skills:</b> Machine Learning Algorithms, Deep Learning Framework, NLP(Natural Language Processing), Time Series Forecasting, A/B Test, Frontend Development, Statistical Analysis, Data Visualization, Version Control, Data Structure & Algorithms<br><br>
+                  <b>Programming Languages:</b> Python, SQL, R, HTML, JavaScript, CSS <br><br>
+                  <b>Tools:</b> PySpark, PyTorch, AWS, Hadoop, Snowflake, Databricks, Dataiku, Git
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col s12 m12 l12">
+          <div class="card" style="margin-top: 0px;">
+            <div class="card-content" style="color: #30505D;">
+              <div class="card-title"><h5>Projects</h5></div>
+              <div class="card-text">
+                <p style="padding-top: 5px;">
+                  Hey there! I'm Hejun Chen. <br><br>I graduated from 
+                  Baruch College with a bachelor degree in Statistics & Quantitative Modeling and a minor in Math. I'll start 
+                  my master's in Data Science at the <a href="https://cds.nyu.edu/">NYU Center for Data Science</a> in the Fall of 2024. My passion lies in using AI/ML to tackle business challenges and uncover insights from 
+                  data analysis in the industry. <br><br> Looking forward to the journey ahead.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col s12 m12 l12">
+          <div class="card" style="margin-top: 0px;">
+            <div class="card-content" style="color: #30505D;">
+              <div class="card-title"><h5>Honors and Awards</h5></div>
+              <div class="card-text">
+                <ul style="list-style-type: disc;">
+                  <li>⦿ Google CDS DeepMind Scholarship, 2024</li> <br>
+                  <li>⦿ Ronald I. Heller Entrepreneurship Scholarship, 2022</li> <br>
+                  <li>⦿ FZYZ Taihe Outstanding Club Leader Scholarship, 2018</li> <br>
+                  <li>⦿ FLTRP ETIC Cup English Public Speaking Contest 1st Prize at Fuzhou City, 2017</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+    </div>
+
+  </div>
+
+
+
+
+  <!--JavaScript at end of body for optimized loading-->
+  <script type="text/javascript" src="js/materialize.min.js"></script>
+</body>
+
+</html>
